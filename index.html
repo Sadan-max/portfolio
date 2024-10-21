@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>portfolio</title>
+</head>
+
+<body style="color: aliceblue; font-family: serif; font-size: 18px;">
+    <!-- start of navbar -->
+    <div class="navigation">
+        <input type="checkbox" id="my-checkbox">
+        <label for="my-checkbox">
+            <div class="menu">
+                <div class="bars" id="bar1"></div>
+                <div class="bars" id="bar2"></div>
+                <div class="bars" id="bar3"></div>
+            </div>
+        </label>
+        <nav>
+            <ul>
+                <li><a href="#home">HOME</a></li>
+                <li><a href="#about">PROJECTS</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+            </ul>
+        </nav>
+        <div class="extra"></div>
+    </div>
+    <!-- end of navbar -->
+    <!-- start of home page -->
+    <div class="container-fluid" id="home" style="height: 100vh;">
+        <div class="row">
+            <div class="col-6">
+                <br>
+                <br>
+                Hi, I'm
+                <div class="myname">
+                    <span id="fl">S</span><span>aadan <span id="fl">A</span>nsari</span>
+                </div>
+                <p>
+                    <b class="typing">I AM FRONTEND DEVELOPER</b>
+                    <br>
+                    I'm a passionate and dedicated aspiring web developer with a strong foundation in HTML, CSS, and JavaScript.
+                    My goal is to kickstart my career in the exciting world of web development.
+                    Through continuous learning and a problem-solving mindset, I constantly explore new technologies and stay updated with the latest trends. 
+                    This portfolio showcases my creativity, attention to detail, and commitment to delivering seamless user experiences.
+                    <br>
+                    This portfolio serves as a showcase of my projects and demonstrates my potential as a web developer.
+                    By exploring my work, you'll witness my creativity, attention to detail, and commitment to
+                    delivering websites that provide seamless user experiences.
+                    <br>
+                    Let's build a better web together!
+                </p>
+                <a href="#about">
+                    <button class="button">
+                        <span class="button-content">Explore More </span>
+                    </button>
+                </a>
+                <!-- <a type="button" class="btn btn-outline-orange" href="#about">Explore Portfolio</a> -->
+            </div>
+            <div class="col-6">
+                <!-- <img src="myimg.png" alt="" srcset=""> -->
+                <div class="sideshape"></div>
+            </div>
+        </div>
+    </div>
+    <!-- end of home page -->
+    <hr>
+    <!-- start of about page -->
+    <div class="container" id="about" style="height: 100vh;">
+        <div class="row">
+            <div class="col-12" style="height: 90px;"></div> <!--for blank space-->
+            <div class="col-4">
+                <div class="card">
+                    Project 1
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="card">
+                    Project 2
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="card">
+                    Project 3
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end of about page -->
+    <hr>
+    <!-- start of contact page -->
+    <div class="container-fluid" id="contact">
+        <div class="row">
+            <div class="col-6 feedback">
+                <p class="cap">Feedback</p>
+                <p><i>
+                        "Your feedback matters! I value your thoughts and opinions.
+                        Please take a moment to share your feedback and let me know how I can improve your experience.
+                        Together, we can create better digital solutions"
+                    </i></p>
+                <div class="item1">
+                    <input type="text" name="text" class="input" placeholder="Write a message"> <!--Feedback-->
+                </div>
+                <div>
+                    <button class="button">
+                        <span class="button-content">Send</span>
+                    </button>
+                </div>
+            </div>
+            <div class="col-6 social">
+                <p class="cap">Socials</p>
+                <p>Let's connect and stay updated! Follow me on social media to get a glimpse into my creative journey,
+                    discover industry insights, and stay connected with the latest web development trends.
+                    Let's connect and inspire each other</p>
+                <div class="socials">
+                    <a href="" target="_blank">
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </a>
+                    <a href="" target="_blank">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="" target="_blank">
+                        <i class="fa-brands fa-twitter"></i>
+                    </a>
+                    <a href="" target="_blank">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end of cpntact page -->
+</body>
+<script src="script/script.js"></script>
+</html>
